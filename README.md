@@ -1,13 +1,13 @@
 # Alexw.RabbitMqExample
-Basic publisher and client in C#
+Basic publisher and client in C# using the [RabbitMq.Client` nuget](https://www.nuget.org/packages/RabbitMQ.Client)
 
 # Pre-Requisites
-* RabbitMq installed locally (or change the `Setting.Hostnames`)
+* [RabbitMq installed locally](https://www.rabbitmq.com/install-windows.html)
 
 # Getting started
 1.  Installed RabbitMq
 1a. Installed Erlang so RabbitMq runs
-2.  Enable the [HTTP RabbitMq Management Plugin](https://www.rabbitmq.com/management.html#getting-started)]
+2.  Enable the [HTTP RabbitMq Management Plugin](https://www.rabbitmq.com/management.html#getting-started)
     ```powershell
 	rabbitmq-plugins enable rabbitmq_management
 	```
