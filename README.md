@@ -1,7 +1,7 @@
 # Alexw.RabbitMqExample
 Basic publisher and client in C# using the [RabbitMq.Client nuget](https://www.nuget.org/packages/RabbitMQ.Client).
 
-Inspired by some work on a client - more detail in this [walkthrough](http://alexw.co.uk/2017/08/experimenting-with-rabbitmq/)
+Inspired by some work on a client - more detail in this [walkthrough](https://www.alexw.co.uk/blog-posts/rabbitmq/csharp/dotnet/2017/08/05/subscribing-to-rabbit-mq-using-the-dotnet-client.html)
 
 # Pre-Requisites
 * [RabbitMq installed locally](https://www.rabbitmq.com/install-windows.html)
