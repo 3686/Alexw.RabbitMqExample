@@ -26,7 +26,6 @@ namespace Alexw.RabbitMqExample.Client
             var connection = factory.CreateConnection(Settings.Hosts);
             var model = connection.CreateModel();
 
-
             model.ExchangeDeclare(Settings.ExchangeName, ExchangeType.Fanout);
             model.QueueDeclare(Settings.QueueName, false, false, false, null);
             model.QueueBind(Settings.QueueName, Settings.ExchangeName, Settings.RoutingKey, null);
